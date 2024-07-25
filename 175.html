@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>On-lineQuiz</title>
+<script type="text/JavaScript">
+fuuction checkAnser()
+{
+//var myQuiz=document.getElementByld("myQuiz");
+if(document.getElementByld("myQuiz").elements[0].checked)
+alert("Congratulations,Your Anser is correct");
+else
+alert("Your Anser is incorrect,Please try Again");
+}
+</script>
+</head>
+<body>
+<from id="myQuiz"action="JavaScript:checkAnser()">
+<p>Which is not a Programming Language:<br>
+<input type="redio"name="radiobutton"value="Word"/>
+<lable>Ms-Word</lable>
+<input type="redio"name="rediobutton"value="Cobol"/>
+<label>COBOL</label>
+<input type="radio"name="radiobutton"value="CPP"/>
+<label>C++</lable>
+<input type="radio"name="radiobutton"value="VB"/>
+<label>Visual BASIC</lable><br><br>
+<input type="supmit"name="supmit"value="Submit"/>
+<input type="reset"name="reset"value="Reset"/>
+</P>
+</from>
+</body>
+</html>

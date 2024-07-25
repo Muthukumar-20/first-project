@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+.Submit{
+width: 5px; ;
+height: 0px; ;
+color: white;
+padding: 5px;
+border :2px solid white;
+background-color: blue; 
+border-radius: 10px; 
+text-decoration: none;
+}
+.Submit:hover{
+    background-color: aqua;
+    color: blue;
+}
+
+
+</style>
+
+</head>
+
+<body>
+    <center>
+        <h1>Registration Form</h1>
+        <form  method="post">
+            <label>First Name</label>
+        <input type="text">
+ 
+        <br><br>
+
+     <label>Last Name</label>
+        <input type="text" >
+        <br><br>
+        <label>Brithday </label>
+        <input type="date"> 
+        <br><br>
+        <label>Gender</label>
+        <input type="radio"> <label>male</label>
+        <input type="radio"><label>female</label>
+        <br><br>
+        <label>email</label>
+        <input type="email">
+        <br><br>
+       
+        <br><br> 
+    </form>
+
+    <label> Phone number </label>
+    <input type="number" id="Phone">
+
+    <a id="index" href ="index.html"></a>
+    <br><br>
+    
+
+    <button id="Clicked" onclick="Clicked()">Submit</button>
+
+    </center>
+    <script>
+        alert("Waring correctly fulling"); 
+        let Clicked =()=>{
+                "112" 
+            let phone=document.getElementById("Phone").value;
+               112           
+            var a=parseInt(phone);
+            console.log("phone variable ="+typeof(phone));
+            console.log("a variable +"+typeof(a));
+
+
+            if(a===9344392708){
+                let index=document.getElementById("index");
+                index.click();-
+            console.log("correct");
+     }      
+else{
+    console.log("error")
+    alert("Number incorrect");
+}
+
+
+  
+          
+           let Clicked=document.getElementById("Clicked");
+        
+  
+        
+        }
+    
+    </script>
+    
+</body>
+
+</html>
